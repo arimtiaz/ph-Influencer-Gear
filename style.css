@@ -1,0 +1,43 @@
+/* utilities */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+h1 {
+  font-size: 52px;
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containers {
+}
+
+.top-section {
+  display: flex;
+}
+
+#cta-one {
+  background-color: #e02c6d;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  width: 196px;
+  height: 44px;
+  left: 120px;
+  top: 511px;
+  font-size: 16px;
+}
+
+.head-image {
+  margin-left: 210px;
+}
