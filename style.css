@@ -59,6 +59,11 @@ main {
 }
 
 /* Popular Collection Section */
+.collection-title {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
 .blocks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
