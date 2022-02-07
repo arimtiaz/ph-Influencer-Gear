@@ -34,6 +34,10 @@ main {
   align-items: center;
 }
 
+.product-info {
+  margin-top: 5px;
+}
+
 #cta-one {
   background-color: #e02c6d;
   color: white;
@@ -89,6 +93,7 @@ main {
 
 .price {
   font-weight: lighter;
+  margin-top: 0px;
 }
 
 .filled-star {
@@ -125,8 +130,12 @@ main {
 
 /* Footer */
 
-.footer {
-  width: 2000px;
+footer {
+  width: absolute;
   height: 239px;
   background: #0a0826;
+}
+
+.footer-info {
+  color: white';
 }
