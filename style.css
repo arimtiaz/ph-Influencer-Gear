@@ -100,6 +100,10 @@ main {
 }
 
 /* Best Influencers */
+.top-influencers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .top-single-influencers {
   display: flex;
   align-items: center;
@@ -107,8 +111,8 @@ main {
 
 .influencer-images {
   border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .influencer-info {
@@ -117,4 +121,12 @@ main {
 
 .influencer-title {
   margin-top: 100px;
+}
+
+/* Footer */
+
+.footer {
+  width: 2000px;
+  height: 239px;
+  background: #0a0826;
 }
