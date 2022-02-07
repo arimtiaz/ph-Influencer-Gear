@@ -98,3 +98,23 @@ main {
 .stroke-star {
   color: #fb8200;
 }
+
+/* Best Influencers */
+.top-single-influencers {
+  display: flex;
+  align-items: center;
+}
+
+.influencer-images {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.influencer-info {
+  margin-left: 10px;
+}
+
+.influencer-title {
+  margin-top: 100px;
+}
