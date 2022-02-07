@@ -11,6 +11,10 @@ p {
   font-size: 16px;
 }
 
+h4 {
+  color: #787885;
+  font-size: 14px;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -55,11 +59,37 @@ main {
 }
 
 /* Popular Collection Section */
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
 
 .block {
-  width: 329px;
-  height: 476px;
+  padding: 10px;
+  justify-content: center;
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+  width: 300px;
+  height: 476px;
+  left: 196px;
+  top: 1035px;
+}
+
+.block-thumbnail {
+  width: 300px;
+  height: 256px;
+}
+
+.price {
+  font-weight: lighter;
+}
+
+.filled-star {
+  color: #fb8200;
+}
+
+.stroke-star {
+  color: #fb8200;
 }
