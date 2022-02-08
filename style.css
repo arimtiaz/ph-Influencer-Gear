@@ -25,6 +25,7 @@ main {
 }
 .containers {
   width: 1200px;
+  margin-bottom: 100px;
 }
 
 /* top sections styles */
@@ -59,19 +60,21 @@ main {
 }
 
 #logo {
-  margin-left: 445px;
+  text-align: left;
 }
 
 /* Popular Collection Section */
 .collection-title {
   margin-top: 150px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .blocks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  grid-column-gap: 120px;
+  grid-row-gap: 60px;
 }
 
 .block {
@@ -137,5 +140,15 @@ footer {
 }
 
 .footer-info {
-  color: white';
+  color: white;
+  text-align: center;
+}
+
+.footer-texts {
+  font-weight: lighter;
+  color: #d9dbe1;
+}
+
+.footer-social a:visited {
+  color: white;
 }
