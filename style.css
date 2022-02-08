@@ -55,6 +55,11 @@ main {
   margin-left: 210px;
 }
 
+.head-image:hover {
+  transform: rotate(-210deg);
+  transition: ease-in-out;
+}
+
 .arrow {
   margin-left: 8px;
 }
@@ -151,4 +156,25 @@ footer {
 
 .footer-social a:visited {
   color: white;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 688px) {
+  .containers {
+    justify-content: center;
+    width: 100%;
+  }
+  .blocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .containers {
+    justify-content: center;
+    width: 100%;
+  }
+  .blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
